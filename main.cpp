@@ -1,11 +1,10 @@
 ﻿#include "pch.h"
+#include <iostream>
 
-using namespace winrt;
-using namespace Windows::Foundation;
+using namespace std;
 
 int main()
 {
-    init_apartment();
-    Uri uri(L"http://aka.ms/cppwinrt");
-    printf("Hello, %ls!\n", uri.AbsoluteUri().c_str());
+    cout << "Funciona!!" << endl;
+    return EXIT_SUCCESS;
 }
